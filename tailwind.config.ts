@@ -5,9 +5,18 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
+      colors: {
+        Signature_alpha: '#e2e8f0',
+        Phantom_alpha:"#db2777"
+      },
+      textColor: {
+        'Signature_alpha': '#e2e8f0',
+        'Phantom_alpha':'#db2777'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +24,7 @@ const config: Config = {
       },
     },
   },
+  
   plugins: [],
 };
 export default config;
