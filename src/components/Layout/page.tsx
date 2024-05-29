@@ -9,11 +9,11 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <>
+    <div className="bg-white/5">
       <NavBarPage />
       <main>{children}</main>
       <Footerpage />
-    </>
+    </div>
   );
 };
 
