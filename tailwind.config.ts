@@ -11,11 +11,11 @@ const config: Config = {
     extend: {
       colors: {
         Signature_alpha: '#e2e8f0',
-        Phantom_alpha:"#db2777"
+        Phantom_alpha:"#ec407a"
       },
       textColor: {
         'Signature_alpha': '#e2e8f0',
-        'Phantom_alpha':'#db2777'
+        'Phantom_alpha':'#ec407a'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

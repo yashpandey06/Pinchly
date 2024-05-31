@@ -1,10 +1,10 @@
 export default {
-    logo: <strong className="text-Phantom_alpha font-bold">Pinch</strong>,
+    logo: <strong style={{ color: "#ec407a", fontSize:"30px" }}>Pinch</strong>,
     project: {
         link: 'https://github.com/shuding/nextra'
     },
-    footer:{
-        
+    footer: {
+
     }
     // ... other theme options
 }

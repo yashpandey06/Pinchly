@@ -58,7 +58,7 @@ export default function App() {
     },
     {
       item: "Object Oriented Concepts",
-      path: "/oops",
+      path: "Object-Oriented-Concepts/Inheritance/Inheritance",
     },
     {
       item: "Help & Feedback",
@@ -145,7 +145,7 @@ export default function App() {
           </button>
         </NavbarItem>
         <NavbarItem>
-          <button onClick={() => router.push("/oops")} aria-current="page">
+          <button onClick={() => router.push("Object-Oriented-Concepts/Introduction/Definition")} aria-current="page">
             OOPS
           </button>
         </NavbarItem>
