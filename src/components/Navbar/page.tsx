@@ -40,10 +40,7 @@ export default function App() {
     user: <TagUser className="text-danger" fill="currentColor" size={30} />,
   };
   const menuItems = [
-    {
-      item: "Profile",
-      path: "/profile",
-    },
+   
     {
       item: "System Design",
       path: "/system-design",
@@ -58,16 +55,13 @@ export default function App() {
     },
     {
       item: "Object Oriented Concepts",
-      path: "Object-Oriented-Concepts/Inheritance/Inheritance",
+      path: "Object-Oriented-Concepts/Introduction/Definition",
     },
     {
       item: "Help & Feedback",
       path: "/help",
     },
-    {
-      item: "Log Out",
-      path: "/logout",
-    },
+    
   ];
   const router = useRouter();
 
@@ -80,8 +74,8 @@ export default function App() {
         />
         <NavbarBrand>
           <Link href="/">
-            <AcmeLogo />
-            <p className="font-bold  text-Phantom_alpha">Pinchly</p>
+            
+            <p className="font-bold  text-Phantom_alpha text-xl">Pinchly</p>
           </Link>
         </NavbarBrand>
       </NavbarContent>

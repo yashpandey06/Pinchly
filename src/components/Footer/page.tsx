@@ -11,7 +11,7 @@ export default function Footerpage() {
         </h2>
       </div>
       <p className="text-sm">
-        © {new Date().getFullYear()} <span className="font-bold text-Phantom_alpha">Pinch</span>. All rights
+        © {new Date().getFullYear()} <span className="font-bold text-Phantom_alpha">Pinchly</span>. All rights
         reserved.
       </p>
     </footer>

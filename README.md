@@ -14,10 +14,10 @@
 
 ## Technologies Used
 
-- ![Next.js](https://nextjs.org/static/favicon/favicon-16x16.png) [Next.js](https://nextjs.org/)
-- ![Tailwind CSS](https://tailwindcss.com/favicon-32x32.png) [Tailwind CSS](https://tailwindcss.com/)
-- ![Cloudinary](https://res.cloudinary.com/cloudinary/image/upload/c_scale,w_32/v1/logo/for_white_bg/cloudinary_icon_for_white_bg.png) [Cloudinary](https://cloudinary.com/)
-- ![Vercel](https://res.cloudinary.com/cloudinary/image/upload/c_scale,w_32/v1/logo/for_white_bg/cloudinary_icon_for_white_bg.png) [vercel](https://cloudinary.com/)
+- ### NextJs
+- ### Tailwind CSS
+- ### Cloudinary
+- ### Vercel
 
 ## Contribution Guide
 - ### Clone the repo 

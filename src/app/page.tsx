@@ -12,7 +12,7 @@ export default function Home() {
         <span className="text-Phantom_alpha ">Pinchly</span> welcomes you{" "}
       </div>
       <Button
-        onClick={() => router.push("/os")}
+        onClick={() => router.push("/Object-Oriented-Concepts/Introduction/Definition")}
         className="bg-pink-700 rounded-lg text-xl duration-150 font-bold"
       >
         Get Started
