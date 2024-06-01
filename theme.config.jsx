@@ -1,7 +1,7 @@
 export default {
-    logo: <strong style={{ color: "#ec407a", fontSize:"30px" }}>Pinch</strong>,
+    logo: <strong style={{ color: "#ec407a", fontSize:"30px" }}>Pinchly</strong>,
     project: {
-        link: 'https://github.com/shuding/nextra'
+        link: 'https://github.com/yashpandey06/Pinchly'
     },
     footer: {
 

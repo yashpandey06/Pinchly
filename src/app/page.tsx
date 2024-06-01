@@ -7,9 +7,9 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
   return (
-    <main className="flex min-h-screen flex-col items-start md:items-center gap-10 justify-center p-24 ">
+    <main className="flex h-screen flex-col items-start md:items-center gap-10 justify-center p-24 ">
       <div className="text-Signature_alpha font-extrabold  text-4xl md:text-5xl lg:text-6xl">
-        <span className="text-Phantom_alpha ">Pinch</span> welcomes you{" "}
+        <span className="text-Phantom_alpha ">Pinchly</span> welcomes you{" "}
       </div>
       <Button
         onClick={() => router.push("/os")}

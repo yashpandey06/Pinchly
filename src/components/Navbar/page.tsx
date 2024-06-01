@@ -81,7 +81,7 @@ export default function App() {
         <NavbarBrand>
           <Link href="/">
             <AcmeLogo />
-            <p className="font-bold  text-Phantom_alpha">Pinch</p>
+            <p className="font-bold  text-Phantom_alpha">Pinchly</p>
           </Link>
         </NavbarBrand>
       </NavbarContent>
@@ -156,10 +156,10 @@ export default function App() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
+        {/* <NavbarItem className="hidden lg:flex">
           <Link href="/login">Login</Link>
-        </NavbarItem>
-        <NavbarItem>
+        </NavbarItem> */}
+        {/* <NavbarItem>
           <Button
             className=""
             as={Link}
@@ -169,7 +169,7 @@ export default function App() {
           >
             Sign Up
           </Button>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (

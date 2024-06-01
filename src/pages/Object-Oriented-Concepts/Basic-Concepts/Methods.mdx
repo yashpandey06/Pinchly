@@ -1,0 +1,60 @@
+import { Tabs } from 'nextra/components'
+ 
+
+## <strong style={{ color: "#ec407a" }}> What are methods ?</strong>
+
+
+
+In Object-Oriented Programming (OOP), methods define the actions that objects can perform. Similar to functions, methods can take arguments and return values, enabling objects to interact with each other and perform complex tasks within a program.
+
+Methods improve code readability and reusability i.e we write a method once and use it many times. We do not require to write code again and again. They can be classified as private, public, default, and protected, each providing different levels of access control.
+We will cover these concepts in the upcoming lessons.
+
+Below is the syntax for defining a method inside a class
+<Tabs items={['Java', 'C++']}>
+  <Tabs.Tab>
+    <div>
+      <pre>
+        <code className="language-java">
+          {`class Car {
+
+    private String make;
+    private String model;
+    private int year;
+
+    // below is the method 
+    void startEngine() {
+        System.out.println("Engine Starting");
+    }
+}`}
+        </code>
+      </pre>
+    </div>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    <div>
+      <pre>
+        <code className="language-cpp">
+          {`#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Car {
+
+private:
+    string make;
+    string model;
+    int year;
+
+// below is the method 
+public:
+    void startEngine() {
+        cout << "Engine Starting" << endl;
+    }
+};`}
+        </code>
+      </pre>
+    </div>
+  </Tabs.Tab>
+</Tabs>
